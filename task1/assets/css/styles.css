@@ -1,0 +1,35 @@
+
+/* header */
+header {
+    background-color: #064635;
+}
+a.custom-links:hover {
+    text-decoration: none;
+}
+
+div.div-main-header{
+    width: 90%;
+}
+a.social-links {
+    width: 100%;
+    text-decoration: none;
+}
+
+img.social-image {
+    width: 35px;
+}
+
+a.social-links:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+/* sss */
+
+div.div-onside {
+    background-color: #519259;
+}
+
+div.sidebar-div {
+    background-color: #064635;
+}
