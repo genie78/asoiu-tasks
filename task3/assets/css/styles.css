@@ -1,0 +1,206 @@
+body {
+    box-sizing: border-box;
+    background: rgb(255,0,88);
+    background: linear-gradient(90deg, rgba(255,0,88,1) 17%, rgba(94,9,121,1) 52%, rgba(57,92,122,1) 100%);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* header */
+
+div.header-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto;
+}
+
+div.header-tags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19%;
+    height: 50px;
+    background-color: #ffc535;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* main div */
+
+div.main-div {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.main-div-content {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 350px;
+    background-color: #fff;
+    padding: 50px;
+
+}
+
+h1{
+    background-color: #ffc535;
+    font-size: 27px;
+    padding: 5px;
+}
+
+div.main-div-content > p {
+    background-color: #ffc535;
+    padding: 3px;
+    font-weight: bold;
+}
+
+/* price divs */
+div.price-divs {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.price-card-div {
+    width: 100%;
+    height: 47%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: #ffc535;
+}
+
+div.price-card-div > h2 {
+    font-weight: lighter;
+    font-size: 70px;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* products-div */
+
+div.products-div {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+div.products-div > div {
+    background-color: #fff;
+    width: 23%;
+    font-size: 13px;
+    padding: 5px;
+}
+
+p.card-title {
+    text-align: center
+}
+
+img.card-img {
+    width: 60px;
+    display: flex;
+    margin: 0 auto;
+}
+
+/* featured-taco-div */
+
+div.featured-taco-div {
+    width: 90%;
+    margin: 20px auto;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+
+}
+
+div.featured-taco-div-img {
+    width: 30%;
+}
+
+img.featured-taco-img {
+    width: 70%;
+}
+
+div.featured-taco-div-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+}
+
+button.learn-more-button {
+    background-color: #ffc535;
+    border: 0px;
+    width: 50%;
+    height: 20%;
+    font-size: 18px;
+    transition: 1s;
+    transition-property: background-color,box-shadow;
+}
+
+button.learn-more-button:hover {
+    background-color: #ff0058;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+/* instant-grams */
+div.instant-grams {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+div.colors {
+    margin: auto;
+    width: 50%;
+    height: 10px;
+    background: rgb(255,197,53);
+    background: linear-gradient(248deg, rgba(255,197,53,1) 48%, rgba(94,9,121,0) 100%);
+}
+
+div.colors1 {
+    background: rgb(255,197,53);
+    background: linear-gradient(90deg, rgba(255,197,53,1) 48%, rgba(94,9,121,0) 100%);
+}
+
+div.instant-grams > p {
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    background-color: rgba(0);
+}
+
+/* sightseeing-div */
+
+div.sightseeing-div {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.sightseeing-div > img {
+    width: 24%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+img.special-img {
+    margin-right: 0;
+}
